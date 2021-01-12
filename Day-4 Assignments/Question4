@@ -1,0 +1,8 @@
+
+In the Binary Search algorithm, it is suggested to calculate the mid as beg+(end-beg)/2 instead of (beg+end)/2;
+becasuse-
+
+1. If beg and end have value equal to maximum integer value then it will cause integer overflow, so this can be avoided 
+   by calculating mid using beg+(end-beg)/2.
+   
+2. If the values of beg and end are less than 0(zero) then it will result in segmentation fault because of invalid index.
