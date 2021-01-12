@@ -1,0 +1,11 @@
+Similarity between an array name and a pointer variable - 
+1. An array name and a pointer variable are similar in case as per the way they access the memory.
+2. We can get the elements of array and pointer using the name.
+
+Diffrence between an array name and a pointer variable - 
+1. A pointer variable can take different addresses as value whereas, in case of array it is fixed.
+2. A pointer is a place in memory that keeps address of another place inside whereas an array is a single, pre allocated chunk of
+   contiguous elements, fixed in size and location.
+3. A pointer allows us to indirectly access variables through addresses and not values. Array allows us to access through values
+   i.e.a[4] refers to the 5th element of the array.
+4. Pointer can’t be initialized at definition. Array can be initialized at definition. 
